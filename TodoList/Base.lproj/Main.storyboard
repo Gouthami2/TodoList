@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="o4H-0A-ZWX" id="PRk-o3-u9D"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todo" id="gfF-2K-pt8"/>
+                    <navigationItem key="navigationItem" title="Todo" id="gfF-2K-pt8">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="QQ4-Bm-MQh">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="o4H-0A-ZWX" id="Reb-rY-meL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Riv-Di-qfY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -49,7 +56,7 @@
                         <color key="backgroundColor" red="1" green="0.0" blue="0.97641235589981079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.94514733549999996" green="0.33713536170000002" blue="0.60535934420000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" red="0.99705451730000005" green="0.88784725819999999" blue="0.10332680549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
